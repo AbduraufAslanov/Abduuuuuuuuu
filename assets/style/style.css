@@ -1,3 +1,264 @@
 body{
     font-family:Plus Jakarta Sans;
+    background-color: #0D121F;
 }
+.subtitle{
+    color: #7C5CFC;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -2%;
+
+}
+.title{
+color: #fff;
+font-size: 40px;
+letter-spacing: -3%;
+line-height: 150%;
+}
+.description{
+    color: #90A3BF;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -2%;
+}
+.title-descriptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.jimmy .title{
+color: #fff;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: -2%;
+margin: 32px 32px;
+position: absolute;
+
+}
+.jimmy{
+    display: flex;
+    width: 384px;
+    height: 363px;
+    margin-top: 20px;
+    background-color: #1A202C;
+    border-radius: 12px;
+    margin-left: 120px;
+    position: absolute;
+
+}
+.natasha .title{
+color: #fff;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: -2%;
+margin: 32px 32px;
+position: absolute;
+
+
+}
+.natasha{
+    display: flex;
+    width: 384px;
+    height: 363px;
+    margin-top: 20px;
+    background-color: #1A202C;
+    border-radius: 12px;
+    margin-left: 528px;
+    position: absolute;
+}
+.moritika .title{
+    color: #fff;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -2%;
+    margin: 32px 32px;
+    position: absolute;
+    
+    }
+.moritika{
+    display: flex;
+    width: 384px;
+    height: 363px;
+    margin-top: 20px;
+    background-color: #1A202C;
+    border-radius: 12px;
+    margin-left: 936px;
+    position: absolute;
+}
+i{
+    color: #fff;
+}
+.left-arrow{
+    padding: 16px 15px ;
+    border-radius: 100px;
+    border: none;
+    background-color: #1A202C;
+}
+.right-arrow{
+    padding: 16px 15px ;
+    border-radius: 100px;
+    border: none;
+    background-color: #7C5CFC;
+}
+.buttons{
+    display: flex;
+        gap: 24px;
+position: absolute;
+top:680px ;
+left: 700px;
+}
+.jimmy-profile{
+    width: 284px;
+     height: 70px;
+      margin-top: 261px;
+       margin-left: 32px;
+        position: absolute;
+
+}
+.metin{
+    width: 320px;
+     height: 120px; 
+     position: absolute;
+      top: 100px;
+     right: 40px;
+}
+.jimmy > hr{
+    width: 320px ;
+     height: 0px; 
+     color: #90A3BF;
+      margin-top: 249px;
+}
+.natasha > hr{
+    width: 320px ;
+     height: 0px; 
+     color: #90A3BF;
+      margin-top: 249px;
+}
+.moritika > hr{
+    width: 320px ;
+     height: 0px; 
+     color: #90A3BF;
+      margin-top: 249px;
+}
+.natasha-profile{
+    width: 284px;
+     height: 70px;
+      margin-top: 261px;
+       margin-left: 32px;
+        position: absolute;
+}
+.moritika-profile{
+    width: 284px;
+     height: 70px;
+      margin-top: 261px;
+       margin-left: 32px;
+        position: absolute;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .buttons{
+        display: none;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+    }
+  .subtitle{
+    font-size: 12px;
+position: absolute;
+
+left: 28px;
+top: 32px;
+
+
+
+  }
+  .title-descriptions .title{
+    font-size: 24px;
+        position: absolute;
+
+left: 28px;
+top: 60px;
+    
+  }
+  .description{
+    font-size: 12px;
+
+
+
+position: absolute;
+width: 319px;
+height: 63px;
+left: 28px;
+top: 113px;
+ }
+span{
+    display: none;
+}
+
+.jimmy{ 
+
+position: absolute;
+width: 319px;
+height: 302px;
+left: -108px;
+top: 165px;
+
+
+
+}
+.jimmy-profile{
+width: 200px;
+height: 40px;
+}
+.metin{
+    width: 271px;
+    height: 105px;
+}
+.jimmy > hr{
+    width: 271px ;
+    height: 0px;
+ 
+    margin-bottom: 60px;
+}
+.natasha{
+    position: absolute;
+    width: 319px;
+    height: 302px;
+    left: -517px;
+    top:497px;
+}
+.natasha-profile{
+    width: 200px;
+    height: 40px;
+}
+.natasha > hr{
+    width: 271px ;
+    height: 0px;
+ 
+    margin-bottom: 60px;
+}
+.moritika{
+    position: absolute;
+    width: 319px;
+    height: 302px;
+    left: -926px;
+    top: 808px;
+}
+.moritika > hr{
+    width: 271px ;
+    height: 0px;
+ 
+    margin-bottom: 60px;
+}
+.moritika .title{
+    margin: 32px 17px;
+}
+.moritika-profile{
+    width: 200px;
+    height: 40px;
+}
+  }
